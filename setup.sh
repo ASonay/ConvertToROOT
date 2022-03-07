@@ -23,7 +23,7 @@ echo -e "*Developed by Anil Sonay, anil.sonay@cern.ch         *"
 echo -e "******************************************************\n"
 
 export CONVERTTOROOT_HOME=$location
-echo -e "\nMVAKit Home Dir : " ${CONVERTTOROOT_HOME}
+echo -e "\nConvertToROOT Home Dir : " ${CONVERTTOROOT_HOME}
 
 alias converter-make='cd ${CONVERTTOROOT_HOME}/build/; make -j4; cd ../'
 alias converter-clean='rm -rf ${CONVERTTOROOT_HOME}/build/'
@@ -32,9 +32,9 @@ alias converter-build='mkdir ${CONVERTTOROOT_HOME}/build && cd ${CONVERTTOROOT_H
 if [ -d "${CONVERTTOROOT_HOME}/build/bin" ] 
 then
     echo -e "Your build/bin directory already exist."
-    echo -e "\nTo recompile please use \e[1m\e[4mmvakit-make\e[0m.\n"
+    echo -e "\nTo recompile please use \e[1m\e[4mconverter-make\e[0m.\n"
 else
-    echo -e "\nTo compile please use \e[1m\e[4mmvakit-build\e[0m.\n"
+    echo -e "\nTo compile please use \e[1m\e[4mconverter-build\e[0m.\n"
 fi
 
 chmod +x share/*
