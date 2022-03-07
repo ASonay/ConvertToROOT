@@ -1,4 +1,4 @@
-The project is aiming control to convert CSV file to ROOT's ntuples for the interactive analysis propose and the big data management with the low memory consumption.
+The project is aiming to convert CSV file to ROOT's ntuples for the interactive analysis propose and the big data management with the low memory consumption.
 Visit: https://root.cern/
 
 The basic usage of the tool;
